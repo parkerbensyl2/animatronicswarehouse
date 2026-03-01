@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Examples of My Work | Animatronics Warehouse</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animatronics Warehouse</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src=".tailwind.congfig.js"></script>
+        <link rel="stylesheet" href="style.css">
 
-    <!-- Tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
-     <script src="./script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
-    <!-- Your CSS -->
-    <link rel="stylesheet" href="style.css">
-  </head>
+    </head>
+        <div class="fixed top-0 right-0  -z-10 ">
+        </div>
+    <body class="overflow-x-hidden">
 
-  <body class="overflow-x-hidden">
-
-    <nav class="w-full fixed px-5 lg:px-8 lg:px-[8%] pt-1 pb-2 flex items-center justify-between z-50">
+        <nav class="w-full fixed px-5 lg:px-8 lg:px-[8%] pt-1 pb-2 flex items-center justify-between z-50">
             <img src="logo.png" alt="Logo" class="w-20 cursor-pointer mt-2 mr-14">
             <ul class="hidden md:flex item-center gap-6 lg:gap-8 rounded-full px-12 py-3 ml-12
              bg-[#F30004] shadow-sm">
@@ -29,7 +29,7 @@
                 <li><a href="index.html#about">About</a></li>
                 <li><a href="index.html#services">Services</a></li>
                 <li><a href="https://www.ebay.com/usr/jnt9000">Shop</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li> 
+                <li><a href="index.htmlportfolio.html">Portfolio</a></li> 
             </ul>
             
             <a href="#contact" id="contactbutton"
@@ -41,6 +41,7 @@
             <button class="block md:hidden ml-3" onclick="openMenu()">
                 <img src="menu.png" alt="" class="w-8"> 
             </button>
+            
         </nav>
        <!---MOBILE---> 
             <ul id="sideMenu" class="flex md:hidden flex-col gap-4 py-20 px-10 fixed
@@ -186,8 +187,9 @@
 </section>
 
 
-    <!-- FIXED CONTACT BAR (same as main site) -->
-    <footer id="contact-bar" class="fixed bottom-0 left-0 w-full bg-[#F30004] z-50">
+
+        
+<footer id="contact-bar" class="fixed bottom-0 left-0 w-full bg-[#F30004] z-50">
   <div class="flex items-center justify-between px-8 py-2 text-white">
     
     <p class="text-sm">
@@ -211,5 +213,10 @@
   </div>
 </footer>
 
-  </body>
+
+
+
+
+        <script src="./script.js"></script>
+    </body>
 </html>
